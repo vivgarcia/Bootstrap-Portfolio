@@ -41,9 +41,14 @@ a:hover {
     color: #44aaaa;
 }
 
+.name {
+    position: absolute;
+    top: 0;
+    
+}
 .main-content {
     background-color: #fff;
-    border: solid 6px #44aaaa;
+    border: solid 2px #44aaaa;
     margin: 0 auto;
     padding: 20px;
     z-index: 2;
@@ -67,19 +72,26 @@ a:hover {
 }
 
 footer {
-    background-color: #777;
+    background-color: #666;
     color: white;
     border-top: solid 10px #44aaaa;
-    
     width: 100%;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
+    position: sticky;
     z-index: 3;
     bottom: 0;
+    left: 0;
 }
+
+/* Contact Page Styling */
 
 #submit-button {
     background-color: #44aaaa;
     color: white;
+}
+
+#submit-button:hover{
+    background-color: #3d9898;
 }
