@@ -12,6 +12,8 @@ h1, h2 {
 
 .navbar {
     background-color: #fff;
+    margin-bottom: 20px;
+    
 }
 
 .fa-bars {
@@ -24,6 +26,11 @@ h1 {
     padding: 10px;
 }
 
+h2 {
+    padding: 10px;
+    color: #44aaaa;
+}
+
 a {
     text-decoration: none;
     color: #777;
@@ -32,4 +39,47 @@ a {
 
 a:hover {
     color: #44aaaa;
+}
+
+.main-content {
+    background-color: #fff;
+    border: solid 6px #44aaaa;
+    margin: 0 auto;
+    padding: 20px;
+    z-index: 2;
+}
+
+.image-of-me {
+    float: left;
+    padding-right: 20px;
+}
+
+#first-text, #second-text, #third-text {
+    line-height: 2.0;
+}
+
+#second-text {
+    margin: 20px 10px;
+}
+
+#third-text {
+    margin: 20px 10px;
+}
+
+footer {
+    background-color: #777;
+    color: white;
+    border-top: solid 10px #44aaaa;
+    
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    z-index: 3;
+    bottom: 0;
+}
+
+#submit-button {
+    background-color: #44aaaa;
+    color: white;
 }
