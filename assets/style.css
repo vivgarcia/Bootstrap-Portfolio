@@ -150,12 +150,28 @@ footer {
 
 @media (max-width: 640px){
    
-    .name {
+    .navbar {
         width: 100%;
         display: inline-block;
         text-align: center;
+        margin: 0 auto;
     }
 
+    button.navbar-toggler {
+        float: right;
+        position: absolute;
+        top: 15px;
+        left: 550px;
+        
+    }
+
+    .name {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+
+    }
     .title {
         display: inline-block;
        
@@ -166,7 +182,7 @@ footer {
     }
 
     .fa-bars {
-        color: #44aaaa;
+        color: #fff;
     }
 
 }
