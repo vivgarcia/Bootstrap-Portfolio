@@ -147,14 +147,26 @@ footer {
 
 }
 
+
 @media (max-width: 640px){
-    .name{
+   
+    .name {
+        width: 100%;
         display: inline-block;
-        padding-bottom: 10px;
+        text-align: center;
     }
 
-    .inner-text {
-        margin-top: 40px;
+    .title {
+        display: inline-block;
+       
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+    .fa-bars {
+        color: #44aaaa;
     }
 
 }
