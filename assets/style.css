@@ -102,7 +102,7 @@ footer {
 
 .main-content-portfolio   {
     width: 960px;
-    height: 700px;
+    height: 100%;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
@@ -149,9 +149,16 @@ footer {
 
 }
 
-.wrapper {
-    width: 100%;
-    min-height: 100%;
+@media (max-width: 980px){
+    .main-content-portfolio{
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .main-content-portfolio{
+        height: 100%;
+    }
 }
 
 
@@ -190,6 +197,10 @@ footer {
 
     .fa-bars {
         color: #fff;
+    }
+
+    .main-content-portfolio{
+        height: 100%;
     }
 
 }
