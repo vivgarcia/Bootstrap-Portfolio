@@ -46,6 +46,8 @@ a:hover {
     top: 0;
     
 }
+
+
 .main-content {
     background-color: #fff;
     border: solid 2px #44aaaa;
@@ -147,6 +149,11 @@ footer {
 
 }
 
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+}
+
 
 @media (max-width: 640px){
    
@@ -186,3 +193,4 @@ footer {
     }
 
 }
+
